@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ol {
+        display: flex;
+        gap: 20px;
+      }
+
+      ol li {
+        border: 1px solid green;
+      }
+
+      @media (min-width: 900px) {
+        li {
+          color: red;
+        }
+      }
+
+      @media (max-width: 899px) {
+        li {
+          color: blue;
+        }
+      }
+
+      .col1 {
+        display: flex;
+        gap: 20px;
+      }
+
+      .col div {
+        width: 33%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ol>
+      <li>Trang chu</li>
+      <li>Tin tuc</li>
+      <li>Tim kiem</li>
+    </ol>
+    <img
+      src="./PhuocFX17744- Assignment 01 Stater/images/default-avatar.png"
+      alt=""
+    />
+    <p>Pham Thanh Phuoc</p>
+    <div class="col1">
+      <div>Cot 1</div>
+      <div>Cot 2</div>
+      <div>Cot 3</div>
+    </div>
+  </body>
+</html>
